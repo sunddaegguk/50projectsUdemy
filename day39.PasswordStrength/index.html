@@ -1,19 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/fba56c30ba.js"
+      crossorigin="anonymous" </script></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/tail.select.js/1.0.0/js/tail.select.min.js" integrity="sha512-eNfDO2CKmisH8P3OHSn33Xps/BsZySbYY3WkxWJu13n6vrbzzGm0de93bVvtfIH8mE/ZL+qWIrnW4FME4ZHDYw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" referrerpolicy="no-referrer" />
+   
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/fba56c30ba.js" crossorigin="anonymous"></script>
+    <title>Password Strength Background</title>
+  </head>
 
-    <title>My Project</title>
-</head>
+  <body>
 
-<body>
-    <h1>Project Starter</h1>
+    <div class="background" id="background"></div>
+    <div class="container">
+ <div class="bg-white rounded p-10 text-center-shadow-md"></div>
+    <h1 class="text-3xl text-shadow: 2px 6px 2px gray" >
+        Image Password Strength
+    </h1>
+    <p class="text-sm text-gray-700">Change the password to see the effect</p>
+    <div class="my-4 text-left">
+        <label for="email" class="text-gay-900">Email:</label>
+        <input type="text" class="border block w-full p-2 mt-2 rounded" id="email" placeholder="Enter your emaila" />
+
+    </div>
+     <div class="my-4 text-left">
+        <label for="password" class="text-gay-900">Password:</label>
+        <input type="password" class="border block w-full p-2 mt-2 rounded" id="email" placeholder="Enter your password"/>
+        <button id="neon-button" class="bg-black hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-4 w-full" id="submit" type="submit">Submit</button>
+    </div>
+    </div>
+   
     <script src="script.js"></script>
-</body>
-
+  </body>
 </html>
