@@ -1,19 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/fba56c30ba.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Let Us Know Your Feedback</title>
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/fba56c30ba.js" crossorigin="anonymous"></script>
-
-    <title>My Project</title>
-</head>
-
-<body>
-    <h1>Project Starter</h1>
+  <body>
+    <div class="panel-container" id="panel">
+      <strong
+        >How satisfied are you with our<br />customer
+        supportperformance?</strong
+      >
+      <div class="ratings-container">
+        <div class="rating">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSQc_b25gWx6A6epHElg4V-oc5NlfMTeN6NZ2YnZ8BcLdTAQ7DqpykmiKpXJVbk_Xck_4&usqp=CAU"
+            alt="unhappy"
+          />
+          <small>Unhappy</small>
+        </div>
+        <div class="rating">
+          <img
+            src="https://atlas-content-cdn.pixelsquid.com/assets_v2/300/3006194630430561715/jpeg-600/G03.jpg?modifiedAt=1"
+            alt="unhappy"
+          />
+          <small>Neutral</small>
+        </div>
+        <div class="rating active">
+          <img
+            src="https://atlas-content-cdn.pixelsquid.com/assets_v2/300/3006196628227888766/jpeg-600/G03.jpg?modifiedAt=1"
+            alt="unhappy"
+          />
+          <small>Satisfied</small>
+        </div>
+      </div>
+      <button class="btn" id="send">Send Review</button>
+    </div>
     <script src="script.js"></script>
-</body>
-
+  </body>
 </html>
