@@ -1,19 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/fba56c30ba.js"
+      crossorigin="anonymous"
+    ></script>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/fba56c30ba.js" crossorigin="anonymous"></script>
+    <title>Dark Mode</title>
+  </head>
 
-    <title>My Project</title>
-</head>
-
-<body>
-    <h1>Project Starter</h1>
+  <body>
+    <div class="container">
+      <div class="toggle">
+        <i class="far fa-sun"></i>
+      </div>
+      <div class="card">
+        <img src="./images/map.png" alt="" class="card-map" />
+        <div class="card-left">
+          <h3 class="card-type">Mastercard</h3>
+          <img src="./images/chip.png" alt="" class="card-chip" />
+          <div>
+            <div class="card-num">1234 4321 5688 8756</div>
+            <div class="card-text">Valid through</div>
+            <div class="card-date">08/26</div>
+            <div class="card-holder">Jun</div>
+          </div>
+        </div>
+        <div class="card-right">
+          <div class="red-circle"></div>
+          <div class="orange-circle"></div>
+        </div>
+      </div>
+    </div>
     <script src="script.js"></script>
-</body>
-
+  </body>
 </html>
